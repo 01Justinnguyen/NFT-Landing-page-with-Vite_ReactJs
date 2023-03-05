@@ -1,0 +1,10 @@
+html,
+body {
+  @apply bg-bgColor text-white font-font1;
+}
+
+.wrapper {
+  max-width: 1492px;
+  width: 100%;
+  margin-inline: auto;
+}
