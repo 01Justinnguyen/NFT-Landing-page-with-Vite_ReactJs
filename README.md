@@ -10,7 +10,7 @@ You must install Vite and Sass in your local before clone project and run test.
 
 ```
 $ git clone https://git_url_clone <project_dir>
-$ cd vite-project
+$ npm install
 $ npm run dev
 ```
 
