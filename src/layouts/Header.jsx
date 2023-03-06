@@ -27,7 +27,7 @@ const navMenuData = [
 
 const Header = () => {
   return (
-    <header className="h-[100px] fixed top-0 left-0 right-0 bg-[rgba(0,0,0,0.1)]">
+    <header className="h-[100px] fixed top-0 left-0 right-0 bg-bgColor shadow-lg shadow-bgColor-500/10 z-50">
       <div className="wrapper flex justify-between items-center h-full">
         <a href="/" title="logo">
           <img srcSet="/logo.png 2x" alt="logo-nft" />
