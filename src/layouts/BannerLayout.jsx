@@ -21,7 +21,7 @@ const totalBannerData = [
 
 const BannerLayout = () => {
   return (
-    <section className="pt-[100px] mb-[150px]">
+    <section className="pt-[100px]">
       <div className="wrapper ct-before-after-banner">
         <div className="max-w-[738px] w-full">
           <h1 className="text-8xl leading-snug font-bold font-font2">
