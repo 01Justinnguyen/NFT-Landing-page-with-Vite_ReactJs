@@ -6,11 +6,11 @@
 - **npm >= v6.14.7**
 - **yarn >= v1.19.1**
 
-You must install Vite and Sass in your local before clone project and run test.
+Clone project and run test.
 
 ```
 $ git clone https://git_url_clone <project_dir>
-$ cd vite-project
+$ npm install
 $ npm run dev
 ```
 
