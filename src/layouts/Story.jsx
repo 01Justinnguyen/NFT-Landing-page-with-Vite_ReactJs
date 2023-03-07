@@ -4,11 +4,11 @@ import Button from '../components/Button';
 const Story = () => {
   return (
     <section className="mt-[150px]">
-      <div className="wrapper flex items-center gap-x-[167px] relative">
+      <div className="wrapper flex items-center gap-x-[167px] relative isolate">
         <div>
           <img srcSet="/Story/storyImage.png 2x" alt="" />
         </div>
-        <div className="ct-after-story">
+        <div className="ct-after after:right-[-200px] max-w-[713px] w-full font-font1">
           <h1 className="text-[50px] leading-snug font-bold mb-[30px]">NFT’s Story</h1>
           <p className="text-[30px] font-normal">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
