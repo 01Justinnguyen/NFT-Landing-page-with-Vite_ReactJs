@@ -7,9 +7,13 @@ body {
   @apply mt-[150px] flex gap-x-[164px] items-end relative after:absolute after:h-[412px] after:w-[412px] after:rounded-full after:blur-[175px] after:top-[-200px] after:bg-blurColor after:left-[-100px] before:absolute before:h-[412px] before:w-[412px] before:rounded-full before:blur-[175px] before:top-[-200px] before:bg-blurColor before:right-[-220px];
 }
 
-.ct-after-story {
-  @apply max-w-[713px] w-full font-font1 after:absolute after:h-[612px] after:w-[407px] after:bg-blurColor after:blur-[250px] after:rounded-full after:top-0 after:right-[-200px];
+.ct-after {
+  @apply after:absolute after:h-[612px] after:w-[407px] after:bg-blurColor after:blur-[250px] after:rounded-full after:top-0 after:-z-50;
 }
+
+// .ct-after-collections {
+//   @apply;
+// }
 
 .wrapper {
   max-width: 1492px;
