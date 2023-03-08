@@ -77,14 +77,10 @@ const collections = [
   ],
 ];
 
-// collections[1].map((item) => console.log(item.subVolume.charAt(0) == '+' ? 'greenColor' : 'redColor'));
-
-// console.log(collections);
-
 const Collections = () => {
   return (
     <section className="collections mt-[277px] mb-[150px] relative">
-      <div className="wrapper ct-after after:left-[-70px] isolate after:top-[-160px]">
+      <div className="justify-center wrapper ct-after after:left-[-70px] isolate after:top-[-160px]">
         <div class="flex justify-center items-center gap-x-[35px]">
           <div class="h-[2px] w-[146px] bg-lineGradient rotate-[-179.8deg] rounded-sm"></div>
           <div class="text-[50px] font-font1 font-bold leading-61px">Top Collections</div>
