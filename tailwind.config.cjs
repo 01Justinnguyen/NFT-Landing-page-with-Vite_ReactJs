@@ -7,6 +7,7 @@ module.exports = {
         font1: ['Inter', 'sans-serif'],
         font2: ['Jura', 'sans-serif'],
         font3: ['Kite One', 'sans-serif'],
+        font4: ['Poppins', 'sans-serif'],
       },
       colors: {
         bgColor: '#191E35',
