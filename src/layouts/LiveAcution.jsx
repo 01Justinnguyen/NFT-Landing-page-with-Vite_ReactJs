@@ -18,8 +18,8 @@ const cardList = [
 
 const LiveAcution = () => {
   return (
-    <section className="liveacution">
-      <div className="wrapper">
+    <section className="liveacution relative">
+      <div className="wrapper ct-after after:left-[-70px] isolate after:top-[26px] pt-[1px]">
         <Heading mainHeading={'Live Acution'} subHeading={'The largest and unique Super rare NFT marketplace For crypto-collectibles'}></Heading>
         <div className="flex items-center justify-center gap-x-[30px]">
           <img className="cursor-pointer hover:opacity-80 hover:transition-opacity" src="/Live_Acution/iconLeft.svg" alt="" />
